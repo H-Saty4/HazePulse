@@ -1,4 +1,4 @@
-# 🌍 HazePulse — Environmental Intelligence
+#  HazePulse — Environmental Intelligence
 > **Predict. Understand. Protect.**  
 > *Hyperlocal Environmental Early-Warning & Decision-Support System*
 
