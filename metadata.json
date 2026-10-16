@@ -1,0 +1,6 @@
+{
+  "name": "HazePulse - Environmental Intelligence",
+  "description": "Hyperlocal environmental early-warning and decision-support system predicting air pollution, identifying causes, estimating personal exposure, and simulating preventive interventions.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
