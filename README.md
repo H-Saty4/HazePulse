@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 1. Problem Statement
+## 1. Problem Statement
 
 Aplikasi pemantau kualitas udara konvensional umumnya hanya menjawab:
 > *"Bagaimana kualitas udara sekarang?"* *(Measure & Display)*
@@ -23,28 +23,28 @@ HazePulse      :  Measure  ──►  Predict  ──►  Explain  ──►  Si
 
 ---
 
-## 💡 2. Lima Pilar Inovasi Utama
+## 2. Lima Pilar Inovasi Utama
 
-1. **🔮 Predict (Hyperlocal Forecast 24–48 Jam)**  
+1. **Predict (Hyperlocal Forecast 24–48 Jam)**  
    Memprediksi konsentrasi PM2.5, PM10, NO₂, dan CO per jam hingga 48 jam ke depan dalam mikro-grid wilayah (bukan sekadar 1 angka untuk 1 kota).
 
-2. **🔥 Detect (Pollution Event Attribution)**  
+2. **Detect (Pollution Event Attribution)**  
    Mendeteksi lonjakan polusi abnormal secara dini dengan mengintegrasikan sinyal termal satelit (hotspot kebakaran MODIS/VIIRS), arah angin, dan pola kemacetan lalu lintas.
 
-3. **🧠 Explain (Explainable AI / SHAP)**  
+3. **Explain (Explainable AI / SHAP)**  
    Memberikan transparansi ilmiah di balik lonjakan polusi (misal: *nocturnal temperature inversion*, stagnasi kecepatan angin, atau emisi jam sibuk sore).
 
-4. **👤 Personalize (Personal Exposure Engine)**  
+4. **Personalize (Personal Exposure Engine)**  
    *Air Quality ≠ Personal Exposure*. Menghitung dosis hirupan riil berdasarkan durasi, waktu, lokasi (indoor vs outdoor), dan laju ventilasi paru-paru (*breathing ventilation rate*).
 
-5. **🏃 Act (Decision Support & Simulation)**  
+5. **Act (Decision Support & Simulation)**  
    * **What-If Simulator**: Menguji dampak perubahan jarak titik api, intensitas kebakaran, dan arah angin terhadap konsentrasi PM2.5 dan paparan personal.
    * **Pollution-Aware Route**: Algoritma optimasi multi-objektif (waktu tempuh vs paparan polusi) untuk rute yang lebih bersih.
    * **Aksi Komunitas**: Simulasi intervensi kebijakan kampus/sekolah (geser jam olahraga, ubah arus gerbang, zona tenang).
 
 ---
 
-## 📊 3. Arsitektur & Pipeline Sistem
+##3. Arsitektur & Pipeline Sistem
 
 ```text
                      HAZEPULSE CORE ENGINE
@@ -80,7 +80,7 @@ HazePulse      :  Measure  ──►  Predict  ──►  Explain  ──►  Si
 
 ---
 
-## 🧬 4. Evaluasi Model AI (Scientific Rigor)
+## 4. Evaluasi Model AI (Scientific Rigor)
 
 HazePulse menguji dan membandingkan 5 arsitektur machine learning pada dataset sensor & mikroklimat:
 
@@ -96,7 +96,7 @@ HazePulse menguji dan membandingkan 5 arsitektur machine learning pada dataset s
 
 ---
 
-## 🛠️ 5. Tech Stack
+## 5. Tech Stack
 
 * **Frontend**: React 19, TypeScript, Tailwind CSS v4, Lucide Icons, Motion
 * **Backend Proxy & Runtime**: Node.js, Express, TSX
@@ -105,7 +105,7 @@ HazePulse menguji dan membandingkan 5 arsitektur machine learning pada dataset s
 
 ---
 
-## 🚀 6. Cara Menjalankan Solusi Secara Lokal
+## 6. Cara Menjalankan Solusi Secara Lokal
 
 ### Prasyarat
 * Node.js versi 18+ atau 20+
@@ -141,7 +141,7 @@ HazePulse menguji dan membandingkan 5 arsitektur machine learning pada dataset s
 
 ---
 
-## 🌐 7. Tautan Pengumpulan Hackathon
+## 7. Tautan Pengumpulan Hackathon
 
 * **Prototype Live Demo**: [https://ais-pre-4umez7onkfodby44zywlqu-623410427237.asia-east1.run.app](https://ais-pre-4umez7onkfodby44zywlqu-623410427237.asia-east1.run.app)
 * **Kategori**: Prototype Aplikasi Web Lingkungan & Keputusan Berbasis AI
